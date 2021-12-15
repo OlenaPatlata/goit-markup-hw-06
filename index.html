@@ -610,18 +610,23 @@
             ></textarea>
           </div>
           <div class="modal-field">
-            <input type="checkbox" name="agreement" class="modal-check visually-hidden" />
+            <input
+              type="checkbox"
+              id="agreement"
+              name="agreement"
+              class="modal-check visually-hidden"
+            />
             <label for="agreement" class="check-text">
               <span>
                 <svg class="check-icon" width="16" height="15">
                   <use href="images/sprite.svg#icon-vector"></use>
                 </svg>
               </span>
-              Соглашаюсь с рассылкой и принимаю
+              Соглашаюсь с рассылкой и принимаю&nbsp
               <a href="" class="check-link">Условия договора</a></label
             >
           </div>
-          <button type="submit">Отправить</button>
+          <button type="submit" class="modal-send-btn btn">Отправить</button>
         </form>
       </div>
     </div>

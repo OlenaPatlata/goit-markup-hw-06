@@ -568,10 +568,10 @@ footer .social-link {
   transform: rotate(180deg);
 }
 .modal.icon {
-  fill: currentColor;
+  fill: var(--logo-text-color);
 }
 .modal-close-btn:hover > .modal.icon {
-  fill: currentColor;
+  fill: var(--accent-color);
 }
 
 .modal-title {
@@ -652,20 +652,33 @@ placeholder {
   border: 1px solid var(--primary-text-color);
   display: flex;
   align-items: center;
+  margin-right: 8px;
 }
 .modal-check:checked + .check-text span {
   background-color: var(--accent-color);
   border: none;
 }
-/* .check-text::before {
-  content: '';
-  width: 16px;
-  height: 15px;
-  margin-right: 7px;
-  border-radius: 2px;
-  border: 1px solid var(--primary-text-color);
-  background-image: url();
-} */
+.modal-field:last-of-type {
+  margin-bottom: 30px;
+}
+.modal-send-btn {
+  display: block;
+  min-width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--additional-accent-color);
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ---------------PAGE PORTFOLIO----------------- */
 /* ---------------SECTION PORTFOLIO----------------- */
 .portfolio.section {
