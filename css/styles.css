@@ -567,6 +567,18 @@ footer .social-link {
 .modal.icon {
   fill: currentColor;
 }
+.modal-form {
+  padding: 39px 41px 41px 39px;
+  width: 100%;
+  height: 100%;
+}
+.modal-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--primary-text-color);
+}
 /* ---------------PAGE PORTFOLIO----------------- */
 /* ---------------SECTION PORTFOLIO----------------- */
 .portfolio.section {
