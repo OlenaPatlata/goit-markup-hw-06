@@ -537,6 +537,26 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <form action="#" class="subscribe-form">
+            <div class="subscribe-field">
+              <label for="user-email" class="subscribe-label">Подпишитесь на рассылку</label>
+              <input
+                type="email"
+                class="subscribe-input"
+                placeholder="E-mail"
+                name="user-email"
+                id="user-email"
+              />
+            </div>
+            <button type="submit" class="subscribe-send-btn btn">
+              <span>Подписаться</span>
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Модальное окно -->
@@ -567,16 +587,15 @@
             </div>
           </div>
           <div class="modal-field">
-            <label for="user-name" class="modal-lable">Телефон</label>
+            <label for="user-tel" class="modal-lable">Телефон</label>
             <div class="input-wrap">
               <input
                 type="text"
                 class="modal-input"
-                name="user-name"
+                name="user-tel"
                 required
-                id="user-name"
+                id="user-tel"
                 placeholder=" "
-                minlength="2"
               />
               <svg class="modal-icon-input" width="18" height="18">
                 <use href="./images/sprite.svg#icon-phone"></use>
@@ -584,16 +603,15 @@
             </div>
           </div>
           <div class="modal-field">
-            <label for="user-name" class="modal-lable">Почта</label>
+            <label for="user-email2" class="modal-lable">Почта</label>
             <div class="input-wrap">
               <input
                 type="text"
                 class="modal-input"
-                name="user-name"
+                name="user-email2"
                 required
-                id="user-name"
+                id="user-email2"
                 placeholder=" "
-                minlength="2"
               />
               <svg class="modal-icon-input" width="18" height="18">
                 <use href="./images/sprite.svg#icon-email-black"></use>
@@ -622,7 +640,7 @@
                   <use href="images/sprite.svg#icon-vector"></use>
                 </svg>
               </span>
-              Соглашаюсь с рассылкой и принимаю&nbsp
+              Соглашаюсь с рассылкой и принимаю
               <a href="" class="check-link">Условия договора</a></label
             >
           </div>

@@ -448,6 +448,7 @@ footer .container {
 }
 .logo-and-adress {
   margin-right: 70px;
+  width: 231px;
 }
 .footer .logo {
   display: block;
@@ -481,6 +482,7 @@ footer .container {
 .join {
   padding-top: 12px;
   padding-bottom: 40px;
+  margin-right: 93px;
 }
 .join-text {
   font-weight: bold;
@@ -517,6 +519,67 @@ footer .social-link {
 .footer-social-icon {
   fill: currentColor;
 }
+.subscribe-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.subscribe-field {
+  width: 358px;
+  padding-top: 12px;
+  margin-right: 12px;
+}
+.subscribe-label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  display: block;
+  margin-bottom: 20px;
+  color: var(--additional-accent-color);
+  text-transform: uppercase;
+}
+.subscribe-input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding: 15px;
+  outline: none;
+  color: var(--additional-accent-color);
+  background-color: var(--futer-background-color);
+}
+placeholder {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+.subscribe-send-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 200px;
+  height: 50px;
+  background-color: var(--accent-color);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 28px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.subscribe-send-btn > span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--additional-accent-color);
+  letter-spacing: 0.06em;
+  margin-right: 12px;
+}
+/* .icon-send {
+  fill: var(--additional-accent-color);
+} */
 /* ---------------MODAL WINDOW--------------------*/
 .backdrop {
   position: fixed;
@@ -584,6 +647,7 @@ footer .social-link {
 }
 .modal-field {
   margin-bottom: 10px;
+  display: block;
 }
 .modal-lable {
   font-size: 12px;
@@ -644,6 +708,7 @@ placeholder {
 }
 .check-link {
   color: var(--accent-color);
+  margin-left: 4px;
 }
 .check-text span {
   width: 16px;
