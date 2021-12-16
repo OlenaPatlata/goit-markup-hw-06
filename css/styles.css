@@ -275,7 +275,7 @@ svg {
 .direction-item {
   position: relative;
 }
-.lable {
+.label {
   position: absolute;
   height: 70px;
   width: 100%;
@@ -616,7 +616,7 @@ placeholder {
   background-color: var(--additional-accent-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  color: var(--logo-text-color);
+  /* color: var(--logo-text-color); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -633,7 +633,7 @@ placeholder {
 .modal.icon {
   fill: var(--logo-text-color);
 }
-.modal-close-btn:hover > .modal.icon {
+.modal-close-btn:hover .modal.icon {
   fill: var(--accent-color);
 }
 
@@ -649,7 +649,7 @@ placeholder {
   margin-bottom: 10px;
   display: block;
 }
-.modal-lable {
+.modal-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
