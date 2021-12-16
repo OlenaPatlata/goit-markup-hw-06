@@ -316,6 +316,7 @@ footer .container {
 .logo-and-adress {
   margin-right: 70px;
   width: 231px;
+  flex-shrink: 0;
 }
 .footer .logo {
   display: block;
@@ -506,7 +507,7 @@ placeholder {
 .modal-close-btn:hover {
   color: var(--accent-color);
 }
-.modal.icon {
+.modal-icon {
   fill: currentColor;
 }
 .backdrop.is-hidden {
