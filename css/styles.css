@@ -255,13 +255,6 @@ svg {
 .social-icon {
   fill: currentColor;
 }
-.social-link svg {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-link:hover svg,
-.social-link:focus svg {
-  fill: currentColor;
-}
 
 /* ---------------CLIENT----------------- */
 .clients {
@@ -301,19 +294,10 @@ svg {
 .client-link:hover,
 .client-link:focus {
   border-color: var(--additional-icon-color-hover);
-  cursor: pointer;
-}
-.client-link svg {
-  transition: var(--color4) 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    var(--color2) 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client-link:hover svg,
-.client-link:focus svg {
-  --color4: var(--additional-icon-color-hover);
-  --color2: var(--additional-icon-color-hover);
+  color: var(--accent-color);
 }
 .client-ikon {
-  --color2: var(--icon-color);
+  fill: currentColor;
 }
 
 /* ---------------FOOTER----------------- */
@@ -513,13 +497,17 @@ placeholder {
   background-color: var(--additional-accent-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  /* color: var(--logo-text-color); */
+  color: var(--logo-text-color);
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn:hover {
   color: var(--accent-color);
+}
+.modal.icon {
+  fill: currentColor;
 }
 .backdrop.is-hidden {
   opacity: 0;
@@ -527,12 +515,10 @@ placeholder {
   visibility: hidden;
   transform: rotate(180deg);
 }
-.modal.icon {
-  fill: var(--logo-text-color);
-}
-.modal-close-btn:hover .modal.icon {
+
+/* .modal-close-btn:hover .modal.icon {
   fill: var(--accent-color);
-}
+} */
 
 .modal-title {
   font-weight: 700;
